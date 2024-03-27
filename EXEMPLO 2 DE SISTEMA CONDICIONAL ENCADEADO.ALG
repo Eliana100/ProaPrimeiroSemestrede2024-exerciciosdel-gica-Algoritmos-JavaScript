@@ -1,33 +1,39 @@
 Algoritmo "Exemplo 2 de sistema condicional encadeado"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson Costa Santos
-// Descrição   : exemplo de sistema condicional encadeado
+// DescriÃ§Ã£o   : exemplo de sistema condicional encadeado
 // Autor(a)    : Eliana Almeida Nunes da Silva
 // Data atual  : 20/03/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("digite um numero:")
    Leia(numero)
    Se numero=1 entao
       Escreval("Domingo")
+Senao
       Se numero=2 entao
          Escreval("Segunda")
+Senao
          Se numero=3 entao
-            Escreval("Terça")
+            Escreval("TerÃ§a")
+Senao
             Se numero=4 entao
                Escreval("Quarta")
+Senao
                Se numero=5 entao
                   Escreval("Quinta")
+Senao
                   Se numero=6 entao
                      Escreval("Sexta")
+Senao
                      Se numero=7 entao
                         Escreval("Sabado")
                      Senao
-                        Escreval("Numero correspondente não encontrado")
+                        Escreval("Numero correspondente nÃ£o encontrado")
                         fimse
                         fimse
                         fimse
